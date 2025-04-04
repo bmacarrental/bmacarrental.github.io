@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - BMA Car Rental</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+             <div class="container nav-container">
+                 <a href="index.html" class="logo">BMA Car Rental</a>
+                <ul class="nav-links">
+                     <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="cars.html">Car Categories</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="index.html#booking-form" class="btn btn-primary btn-nav-book">Book Now</a></li>
+                </ul>
+                 <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">☰</button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container page-padding">
+        <h1>Contact Us</h1>
+        <p class="page-intro">Get in touch with us for bookings, inquiries, or any assistance you need. We're here to help!</p>
+
+        <div class="contact-container">
+            <div class="contact-details">
+                <h2>Our Information</h2>
+                <!-- <p><strong><i class="icon-location"></i> Address:</strong></p>
+                <p>
+                    [Your Company Name - BMA Car Rental]<br>
+                    [Your Street Address]<br>
+                    [Your Area/Locality]<br>
+                    [Your City, Pincode, e.g., Bangalore - 560XXX]<br>
+                    Karnataka, India
+                </p> -->
+
+                <p><strong><i class="icon-phone"></i> Phone:</strong> <a href="tel:+919876543210">+91 98765 43210</a></p> <p><strong><i class="icon-email"></i> Email:</strong> <a href="mailto:booking@bmacarrental.com">booking@bmacarrental.com</a></p> <p><strong><i class="icon-whatsapp"></i> WhatsApp:</strong> <a href="https://wa.me/919876543210" target="_blank">Chat with us (+91 98765 43210)</a></p> <p><strong>Business Hours:</strong> 24/7 Booking Support</p>
+
+                 <div class="social-links contact-page-social">
+                    <a href="#" target="_blank" aria-label="Facebook"><i class="icon-facebook"></i> Facebook</a> <a href="#" target="_blank" aria-label="Instagram"><i class="icon-instagram"></i> Instagram</a> </div>
+
+                 <!-- <h2>Find Us on Map</h2> -->
+                 <!-- <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d[YOUR_MAP_EMBED_CODE_HERE]!2d[LONGITUDE]!3d[LATITUDE]!..."
+                        width="100%"
+                        height="350"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                     </div> -->
+
+            </div>
+
+            <div class="contact-form-section">
+                <h2>Send Us an Inquiry</h2>
+                <form id="contact-inquiry-form">
+                     <div class="form-group">
+                        <label for="contact-name">Your Name:</label>
+                        <input type="text" id="contact-name" name="contact-name" required>
+                    </div>
+                     <div class="form-group">
+                        <label for="contact-email">Your Email:</label>
+                        <input type="email" id="contact-email" name="contact-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-phone">Phone Number:</label>
+                        <input type="tel" id="contact-phone" name="contact-phone" pattern="[0-9]{10}" placeholder="Optional">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-subject">Subject:</label>
+                        <input type="text" id="contact-subject" name="contact-subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Your Message / Query:</label>
+                        <textarea id="contact-message" name="contact-message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                     <p id="contact-status" class="form-status"></p>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-section about">
+                <h4>About BMA Car Rental</h4>
+                <p>Providing reliable car rental services across India since 2021. Your comfort and safety are our priority.</p>
+                 <p><strong>Business Hours:</strong> 24/7 Booking Support</p>
+            </div>
+            <div class="footer-section links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="cars.html">Cars</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#!">Terms & Conditions</a></li>
+                    <li><a href="#!">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-info">
+                <h4>Contact Us</h4>
+                <p><i class="icon-phone"></i> <a href="tel:+919945063627">+91 99450 63627</a></p>
+                <p><i class="icon-email"></i> <a href="mailto:bmacarrental@gmail.com">bmacarrental@gmail.com</a></p>
+                 <p><i class="icon-whatsapp"></i> <a href="https://wa.me/919945063627" target="_blank">Chat on WhatsApp</a></p>
+                <div class="social-links">
+                    <a href="#" target="_blank" aria-label="Facebook"><i class="icon-facebook"></i></a>
+                    <a href="#" target="_blank" aria-label="Instagram"><i class="icon-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> BMA Car Rental. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
